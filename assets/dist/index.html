@@ -17,6 +17,35 @@
       width: 100%;
       margin: 0 auto;
     }
+
+ /* Speech-bubble credit: https://leaverou.github.io/bubbly/ */
+	.speech-bubble {
+      position: relative;
+      background: #00aabb;
+      border-radius: .4em;
+      padding: 10px 5px;
+      margin: 1em 0;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 50%;
+      text-shadow: 0 -0.05em 0.1em rgba(0,0,0,.3);
+    }
+	.speech-bubble:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-top-color: #00aabb;
+		border-bottom: 0;
+		border-left: 0;
+		margin-left: -10px;
+		margin-bottom: -10px;
+		}
+
   </style>
 </head>
 
